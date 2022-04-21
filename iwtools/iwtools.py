@@ -8,8 +8,7 @@ import time
 import sys
 
 # Third-party libraries
-from termcolor import colored
-from colorama import init
+#from colorama import init
 import requests
 
 # Local libraries
@@ -25,6 +24,10 @@ from services.darkweb import Darkweb
 
 # Debug libraries
 from pprint import pprint
+
+
+def colored(message, *args, **kwargs):
+    return message
 
 
 # Let's start
@@ -110,7 +113,7 @@ def main():
 # Init CLI
 if __name__ == '__main__':
     # Init Colorama in Windows
-    init()
+    #init()
 
     # Let's start
     main()

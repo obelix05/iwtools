@@ -9,12 +9,15 @@ import sys
 import re
 
 # Third-party libraries
-from termcolor import colored
 import requests
 
 # Local libraries
 from gui.loader import InfiniteLoader
 from gui.scores import scores
+
+
+def colored(message, *args, **kwargs):
+    return message
 
 
 class Ssl:
