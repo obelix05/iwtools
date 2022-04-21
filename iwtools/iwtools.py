@@ -11,7 +11,7 @@ sys.path.append('/storage/.kodi/addons/script.module.certifi/lib')
 sys.path.append('/storage/.kodi/addons/script.module.idna/lib')
 sys.path.append('/storage/.kodi/addons/script.module.idna/lib')
 sys.path.append('/storage/.kodi/addons/script.module.requests/lib')
-sys.path.append('/storage/.kodi/addons/sscript.module.urllib3/lib')
+sys.path.append('/storage/.kodi/addons/script.module.urllib3/lib')
 
 # Third-party libraries
 #from colorama import init
